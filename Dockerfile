@@ -9,9 +9,11 @@ COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+# 複製 frontend 內容到 /app
+COPY frontend/ /app
 
 # 啟動主程式 app.py
 CMD ["python", "app.py"]
 
 EXPOSE 5000
+
