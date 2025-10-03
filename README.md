@@ -8,3 +8,5 @@
 範例畫面02
 <img width="1850" height="986" alt="image" src="https://github.com/user-attachments/assets/c751fbd6-6af8-4363-ae72-d81b94e591ee" />
 
+網址
+http://35.212.142.27:5000/
