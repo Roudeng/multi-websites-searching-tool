@@ -6,10 +6,11 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - .:/app
+      - ./frontend:/app
     # environment:
     #   - FLASK_ENV=development
     # command: python app.py
+
 
 
 
